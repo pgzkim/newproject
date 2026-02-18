@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "mybarlowfont";
+    src: url("fonts/mybarlow.otf") format("otf"),
+         url("fonts/mybarlow.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+main {
+    display: flex;
+    margin: 0;
+    padding: 90px;
+    box-sizing: border-box;
+    
+
+
+}
+
+.left {
+    position: relative;
+    width: 50%;
+}
+
+ .bg-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.svg-logo {
+    position: absolute;
+    width: 150px;
+    top: 40px;
+    left: 40px;
+}
+
+h2, h3 {
+    color: #7B8A92;
+    display: block;
+    margin-top: 40px;
+}
+
+p {
+    color: #96A5B1;
+    margin-top: 5px;
+}
+
+body {
+    background-color: #eff6ff;
+}
+
+.right {
+    background-color: #ffffff;
+    display: flex;
+    padding: 50px;
+    width: 50%;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: mybarlowfont;
+    
+}
+
+.buttons {
+    gap: 50px;
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    font-family: mybarlowfont;
+
+}
+
+.buttons [type="button"] {
+    flex: 1;
+    padding: 8px; 
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    border: 0;
+    font-family: mybarlowfont;
+
+}
+
+.button-fb {
+    background-color: #255A9B;
+    color: #ffffff;
+    gap: 40px;
+    border-radius: 2px;
+}
+
+.button-link {
+background-color: #0076B6;
+color: #ffffff;
+gap: 40px;
+border-radius: 2px;
+
+}
+
+.or {
+  text-align:center;
+  border-top: 0.5px solid #AFAFAF;
+  margin: 50px auto;
+  width: 300px;
+}
+
+.or span {
+  background:white;
+  padding:0 10px;
+  position: relative;
+  top: -10px;
+  font-family: mybarlowfont;
+}
+
+.form1 {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    font-family: mybarlowfont;
+}
+
+.form1 label {
+    color: #AFAFAF;
+    padding-left: 5px;
+}
+
+.form1 input{
+    border: none;
+    outline: none;
+    font-size: medium;
+    font-family: mybarlowfont;
+}
+
+.email-input, .phone-input {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EEEEEE;
+    border-left: 2px solid rgb(22, 153, 213);
+    border-radius: 2px;
+
+}
+
+.form2 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.form2 label {
+    flex: 1;
+    font-family: mybarlowfont;
+}
+
+.info {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: #3b99ff;
+    margin-left: 4px;
+
+}
+
+.info {
+    position: relative;
+    cursor: pointer;
+    color: #AFAFAF;
+}
+
+.title-text {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 250px;
+    background-color: #ffffff;
+    color: #AFAFAF;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.info:hover .title-text {
+    display: block;
+}
+
+
+.checkbox-text {
+    margin-top: 150px;
+    color: #96A5B1;
+    font-size: 14px;
+}
+
+button [type="submit"] {
+    display: flex;
+    width: 100%;
+}
+.btn {
+    background-color: #3698FB;
+    color: #ffffff;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    width: 45%;
+    height: 40px;
+    
+}
+
+
+
+
+
+
+
+
+

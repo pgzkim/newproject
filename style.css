@@ -97,7 +97,7 @@ border-radius: 2px;
 }
 
 .or {
-  text-align:center;
+  text-align: center;
   border-top: 0.5px solid #AFAFAF;
   margin: 50px auto;
   width: 300px;
@@ -135,7 +135,6 @@ border-radius: 2px;
     display: flex;
     flex-direction: column;
     border: 1px solid #EEEEEE;
-    border-left: 2px solid rgb(22, 153, 213);
     border-radius: 2px;
 
 }
@@ -154,15 +153,9 @@ border-radius: 2px;
     position: relative;
     display: inline-block;
     cursor: pointer;
-    color: #3b99ff;
     margin-left: 4px;
-
-}
-
-.info {
-    position: relative;
-    cursor: pointer;
     color: #AFAFAF;
+
 }
 
 .title-text {
